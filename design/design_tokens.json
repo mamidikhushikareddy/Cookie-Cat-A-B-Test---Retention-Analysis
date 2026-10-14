@@ -1,0 +1,24 @@
+{
+  "color": {
+    "ink": "#17211d",
+    "paper": "#f6f7f2",
+    "green": "#194b39",
+    "lime": "#d7ff62",
+    "orange": "#f6a45a",
+    "muted": "#718078"
+  },
+  "radius": {
+    "card": "20px",
+    "hero": "24px",
+    "pill": "999px"
+  },
+  "type": {
+    "display": "Manrope",
+    "mono": "DM Mono"
+  },
+  "motion": {
+    "correct_answer_ms": 350,
+    "badge_unlock_ms": 650,
+    "reduced_motion_supported": true
+  }
+}

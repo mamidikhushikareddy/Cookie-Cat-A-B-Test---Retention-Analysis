@@ -1,0 +1,12 @@
+[project]
+name = "cookie-cat"
+version = "0.2.0"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<3", "numpy>=1.26", "scipy>=1.12", "statsmodels>=0.14", "matplotlib>=3.8",
+  "pandera>=0.20", "duckdb>=1.0", "fastapi>=0.115,<1", "uvicorn[standard]>=0.30", "httpx>=0.27",
+  "fastmcp>=2.0", "langgraph>=0.2", "pytest>=8", "nbformat", "nbclient", "ipykernel"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]

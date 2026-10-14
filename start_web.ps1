@@ -1,0 +1,10 @@
+$ErrorActionPreference = "Stop"
+Write-Host "Cookie Cat Odyssey — API + web launcher" -ForegroundColor Cyan
+Write-Host "Start the API in this terminal first; then open a second terminal for Next.js."
+Write-Host "From the project root run:"
+Write-Host "  python -m pip install -r api/requirements.txt"
+Write-Host "  python -m uvicorn api.main:app --reload --port 8000"
+Write-Host "In a second terminal run:"
+Write-Host "  Set-Location web"
+Write-Host "  npm install"
+Write-Host "  npm run dev"

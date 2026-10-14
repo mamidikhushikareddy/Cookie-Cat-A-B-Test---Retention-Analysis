@@ -1,0 +1,3 @@
+# Optional integrations; install separately from the core application.
+marimo>=0.14
+duckdb>=1.2
