@@ -44,6 +44,16 @@ jupyter notebook notebooks/01_cookie_cats_retention_analysis.ipynb
 
 Optional interactive app: `python -m streamlit run app.py`
 
+Additionally:
+
+```bash
+cd web
+npm install
+copy .env.example .env.local
+npm run dev
+```
+Then open http://localhost:3000.
+
 ## Data
 
 Public Cookie Cats mobile-game dataset ([Kaggle](https://www.kaggle.com/datasets/yufengsui/mobile-games-ab-testing)), one row per player: `userid`, `version`, `sum_gamerounds`, `retention_1`, `retention_7`. The download script validates columns and row count before saving.
